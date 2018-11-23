@@ -1,0 +1,30 @@
+# Chinese (Simplified) translation for openobject-addons
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 8.0\n"
+"Report-Msgid-Bugs-To: gagaboy@126.com\n"
+"PO-Revision-Date: 206-03-04 18:53+8000\n"
+"Last-Translator: Eric Chang<gagaboy@126.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account
+#. openerp-web
+#: code:addons\account\static\src\js\account_widgets.js:1755
+#: code:addons\account\static\src\js\account_widgets.js:1761
+#, python-format
+msgid "Never"
+msgstr "未核销过"
+
+
+#. module: account
+#: view:account.move.line.reconcile:account.view_account_move_line_reconcile_full
+msgid "Reconcile Entries"
+msgstr "核销"

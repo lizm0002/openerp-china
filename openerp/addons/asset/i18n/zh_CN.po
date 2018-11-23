@@ -1,0 +1,566 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* asset
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-19 14:15+0000\n"
+"PO-Revision-Date: 2015-05-21 07:03+0800\n"
+"Last-Translator: 保定-粉刷匠 <992102498@qq.com>\n"
+"Language-Team: Odoo中文社区 <992102498@qq.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 1.7.6\n"
+
+#. module: asset
+#: selection:asset.state,team:0
+msgid "Accounting"
+msgstr "会计"
+
+#. module: asset
+#: field:asset.asset,active:0
+msgid "Active"
+msgstr "有效"
+
+#. module: asset
+#: model:ir.model,name:asset.model_asset_asset
+msgid "Asset"
+msgstr "资产"
+
+#. module: asset
+#: field:asset.asset,property_stock_asset:0
+msgid "Asset Location"
+msgstr "资产位置"
+
+#. module: asset
+#: model:stock.location,name:asset.stock_location_locations_asset
+msgid "Asset Locations"
+msgstr "资产位置"
+
+#. module: asset
+#: field:asset.asset,name:0
+msgid "Asset Name"
+msgstr "资产名称"
+
+#. module: asset
+#: field:asset.asset,asset_number:0
+msgid "Asset Number"
+msgstr "资产编号"
+
+#. module: asset
+#: view:asset.asset:asset.assets_search
+msgid "Asset Search"
+msgstr "资产查询"
+
+#. module: asset
+#: model:ir.actions.act_window,name:asset.action_asset_state
+#: model:ir.ui.menu,name:asset.menu_asset_state
+msgid "Asset States"
+msgstr "资产状态"
+
+#. module: asset
+#: view:asset.asset:asset.assets_form_view
+#: view:asset.asset:asset.assets_tree_view
+#: model:ir.actions.act_window,name:asset.action_assets
+#: model:ir.ui.menu,name:asset.menu_maintenance_assets
+#: model:ir.ui.menu,name:asset.menu_maintenance_assets_assets
+#: model:stock.location,name:asset.stock_location_assets
+msgid "Assets"
+msgstr "资产"
+
+#. module: asset
+#: field:asset.asset,user_id:0
+msgid "Assigned to"
+msgstr "指派给"
+
+#. module: asset
+#: selection:asset.asset,maintenance_state_color:0
+#: selection:asset.state,state_color:0
+msgid "Black"
+msgstr "黑色"
+
+#. module: asset
+#: selection:asset.asset,maintenance_state_color:0
+#: selection:asset.state,state_color:0
+msgid "Blue"
+msgstr "蓝色"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_breakdown
+msgid "Breakdown"
+msgstr "故障"
+
+#. module: asset
+#: view:asset.state:asset.asset_state_kanban_view
+msgid "Change color"
+msgstr "更换颜色"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_close
+msgid "Close"
+msgstr "关闭"
+
+#. module: asset
+#: field:asset.asset,maintenance_state_color:0
+msgid "Color"
+msgstr "颜色"
+
+#. module: asset
+#: model:ir.ui.menu,name:asset.menu_maintenance_config
+msgid "Configuration"
+msgstr "配置"
+
+#. module: asset
+#: field:asset.asset,create_uid:0 field:asset.state,create_uid:0
+msgid "Created by"
+msgstr "创建者"
+
+#. module: asset
+#: field:asset.asset,create_date:0 field:asset.state,create_date:0
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: asset
+#: selection:asset.asset,criticality:0
+msgid "Critical"
+msgstr "关键"
+
+#. module: asset
+#: field:asset.asset,criticality:0
+msgid "Criticality"
+msgstr "重要程度"
+
+#. module: asset
+#: model:res.groups,name:asset.group_mro_customer
+msgid "Customer"
+msgstr "客户"
+
+#. module: asset
+#: selection:asset.asset,maintenance_state_color:0
+#: selection:asset.state,state_color:0
+msgid "Cyan"
+msgstr "青色"
+
+#. module: asset
+#: help:asset.asset,message_last_post:0
+msgid "Date of the last message posted on the record."
+msgstr "最后一条消息发布日期"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_depreciation
+msgid "Depreciation"
+msgstr "折旧"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_down
+msgid "Down"
+msgstr "闲置"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_draft
+msgid "Draft"
+msgstr "草稿"
+
+#. module: asset
+#: model:ir.module.category,name:asset.module_category_eam
+msgid "Enterprise Asset Management"
+msgstr "企业资产管理"
+
+#. module: asset
+#: selection:asset.state,team:0
+msgid "Finance"
+msgstr "财务"
+
+#. module: asset
+#: field:asset.asset,message_follower_ids:0
+msgid "Followers"
+msgstr "关注者"
+
+#. module: asset
+#: selection:asset.asset,criticality:0
+msgid "General"
+msgstr "一般"
+
+#. module: asset
+#: selection:asset.asset,maintenance_state_color:0
+#: selection:asset.state,state_color:0
+msgid "Green"
+msgstr "绿色"
+
+#. module: asset
+#: model:ir.module.category,description:asset.module_category_eam
+msgid "Helps you manage your assets."
+msgstr "帮助你管理资产"
+
+#. module: asset
+#: model:ir.module.category,description:asset.module_category_maintenance
+msgid "Helps you manage your maintenance processes."
+msgstr "帮助你管理维护流程"
+
+#. module: asset
+#: help:asset.asset,message_summary:0
+msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr "保存聊天统计（消息数量，……）。为了能插入到看板视图，这个统计直接采用了html格式。"
+
+#. module: asset
+#: field:asset.asset,id:0 field:asset.state,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: asset
+#: help:asset.asset,message_unread:0
+msgid "If checked new messages require your attention."
+msgstr "如果勾选，你就要关注新邮件"
+
+#. module: asset
+#: field:asset.asset,image:0
+msgid "Image"
+msgstr "图片"
+
+#. module: asset
+#: selection:asset.asset,criticality:0
+msgid "Important"
+msgstr "重要"
+
+#. module: asset
+#: view:asset.asset:asset.assets_form_view
+msgid "Info"
+msgstr "信息"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_installed
+msgid "Installed"
+msgstr "已安装"
+
+#. module: asset
+#: model:ir.model,name:asset.model_stock_location
+msgid "Inventory Locations"
+msgstr "库存点"
+
+#. module: asset
+#: field:asset.asset,message_is_follower:0
+msgid "Is a Follower"
+msgstr "是否关注"
+
+#. module: asset
+#: field:asset.asset,message_last_post:0
+msgid "Last Message Date"
+msgstr "最后消息时间"
+
+#. module: asset
+#: field:asset.asset,write_uid:0 field:asset.state,write_uid:0
+msgid "Last Updated by"
+msgstr "最后更新的人"
+
+#. module: asset
+#: field:asset.asset,write_date:0 field:asset.state,write_date:0
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_leased
+msgid "Leased"
+msgstr "租赁"
+
+#. module: asset
+#: selection:asset.asset,maintenance_state_color:0
+#: selection:asset.state,state_color:0
+msgid "Magenta"
+msgstr "紫红色"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_maintenance
+#: selection:asset.state,team:0
+#: model:ir.module.category,name:asset.module_category_maintenance
+msgid "Maintenance"
+msgstr "维护"
+
+#. module: asset
+#: model:ir.actions.act_window,name:asset.action_management_assets
+#: model:ir.ui.menu,name:asset.menu_maintenance_assets_management
+msgid "Manage states"
+msgstr "管理状态"
+
+#. module: asset
+#: model:res.groups,name:asset.group_mro_manager
+msgid "Manager"
+msgstr "管理者"
+
+#. module: asset
+#: selection:asset.state,team:0
+msgid "Manufacture"
+msgstr "制造"
+
+#. module: asset
+#: field:asset.asset,manufacturer_id:0
+msgid "Manufacturer"
+msgstr "制造商"
+
+#. module: asset
+#: view:asset.asset:asset.assets_kanban_view
+msgid "Manufacturer:"
+msgstr "制造商："
+
+#. module: asset
+#: field:asset.asset,image_medium:0
+msgid "Medium-sized image"
+msgstr "中等尺寸图片"
+
+#. module: asset
+#: help:asset.asset,image_medium:0
+msgid "Medium-sized image of the asset. It is automatically resized as a 128x128px image, with aspect ratio preserved, only when the image exceeds one of those sizes. Use this field in form views or some kanban views."
+msgstr "资产的中等大小图像。当图片尺寸过大时，其大小将在保持长宽比不变的情况下，自动调整至128x128像素。你可以在一些看板视图或窗体视图中使用这个字段。"
+
+#. module: asset
+#: field:asset.asset,message_ids:0
+msgid "Messages"
+msgstr "消息"
+
+#. module: asset
+#: help:asset.asset,message_ids:0
+msgid "Messages and communication history"
+msgstr "消息及沟通历史"
+
+#. module: asset
+#: field:asset.asset,model:0
+msgid "Model"
+msgstr "型号"
+
+#. module: asset
+#: view:asset.asset:asset.assets_kanban_view
+msgid "Model:"
+msgstr "模型："
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_moves
+msgid "Moves"
+msgstr "搬运"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_operable
+msgid "Operable"
+msgstr "完好"
+
+#. module: asset
+#: selection:asset.asset,maintenance_state_color:0
+#: selection:asset.state,state_color:0
+msgid "Orange"
+msgstr "橙色"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_planned
+msgid "Planned"
+msgstr "计划购买"
+
+#. module: asset
+#: field:asset.asset,purchase_date:0
+msgid "Purchase Date"
+msgstr "采购时间"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_purchased
+msgid "Purchased"
+msgstr "已采购"
+
+#. module: asset
+#: selection:asset.asset,maintenance_state_color:0
+#: selection:asset.state,state_color:0
+msgid "Red"
+msgstr "红色"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_rented
+msgid "Rented"
+msgstr "租用"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_repair
+msgid "Repair"
+msgstr "修理"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_retired
+msgid "Retired"
+msgstr "报废"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_run
+msgid "Run"
+msgstr "运行"
+
+#. module: asset
+#: field:asset.state,team:0
+msgid "Scope Team"
+msgstr "团队方位"
+
+#. module: asset
+#: field:asset.state,sequence:0
+msgid "Sequence"
+msgstr "序列"
+
+#. module: asset
+#: view:asset.asset:asset.assets_kanban_view
+msgid "Serial No:"
+msgstr "序列号："
+
+#. module: asset
+#: field:asset.asset,serial:0
+msgid "Serial no."
+msgstr "序列号："
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_setup
+msgid "Setup"
+msgstr "安装"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_shipped
+msgid "Shipped"
+msgstr "运输中"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_shutdown
+msgid "Shutdown"
+msgstr "关闭"
+
+#. module: asset
+#: selection:asset.asset,maintenance_state_color:0
+#: selection:asset.state,state_color:0
+msgid "SkyBlue"
+msgstr "天蓝色"
+
+#. module: asset
+#: field:asset.asset,image_small:0
+msgid "Small-sized image"
+msgstr "缩略图"
+
+#. module: asset
+#: help:asset.asset,image_small:0
+msgid "Small-sized image of the asset. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
+msgstr "资产的缩略图大小被自动调整为64X64像素，长宽比保留。"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_sold
+msgid "Sold"
+msgstr "售出"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_standby
+msgid "Standby"
+msgstr "备用"
+
+#. module: asset
+#: field:asset.asset,start_date:0
+msgid "Start Date"
+msgstr "开始日期"
+
+#. module: asset
+#: field:asset.asset,finance_state_id:0
+#: field:asset.asset,maintenance_state_id:0
+#: field:asset.asset,manufacture_state_id:0
+#: field:asset.asset,warehouse_state_id:0
+#: view:asset.state:asset.asset_state_form_view field:asset.state,name:0
+msgid "State"
+msgstr "状态"
+
+#. module: asset
+#: field:asset.state,state_color:0
+msgid "State Color"
+msgstr "状态颜色"
+
+#. module: asset
+#: model:ir.model,name:asset.model_asset_state
+msgid "State of Asset"
+msgstr "资产的状态"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_stolen
+msgid "Stolen"
+msgstr "失窃"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_stored
+msgid "Stored"
+msgstr "封存"
+
+#. module: asset
+#: field:asset.asset,message_summary:0
+msgid "Summary"
+msgstr "概要"
+
+#. module: asset
+#: help:asset.asset,image:0
+msgid "This field holds the image used as image for the asset, limited to 1024x1024px."
+msgstr "本表单存放资产的图片，寸尺不要超过1024x1024像素。"
+
+#. module: asset
+#: help:asset.asset,property_stock_asset:0
+msgid "This location will be used as the destination location for installed parts during asset life."
+msgstr "在资产寿命周期内，这个库位将作为要安装的零件的目标库位。"
+
+#. module: asset
+#: field:asset.asset,message_unread:0
+msgid "Unread Messages"
+msgstr "未读信息"
+
+#. module: asset
+#: model:asset.state,name:asset.asset_state_use
+msgid "Use"
+msgstr "使用"
+
+#. module: asset
+#: help:asset.state,sequence:0
+msgid "Used to order states."
+msgstr "用于订单状态"
+
+#. module: asset
+#: model:res.groups,name:asset.group_mro_user
+msgid "User"
+msgstr "用户"
+
+#. module: asset
+#: field:asset.asset,vendor_id:0
+msgid "Vendor"
+msgstr "供应商"
+
+#. module: asset
+#: selection:asset.asset,criticality:0
+msgid "Very important"
+msgstr "非常重要"
+
+#. module: asset
+#: selection:asset.state,team:0
+msgid "Warehouse"
+msgstr "仓库"
+
+#. module: asset
+#: view:asset.asset:asset.assets_form_view
+msgid "Warranty"
+msgstr "保修"
+
+#. module: asset
+#: field:asset.asset,warranty_end_date:0
+msgid "Warranty End"
+msgstr "保修开始时间"
+
+#. module: asset
+#: field:asset.asset,warranty_start_date:0
+msgid "Warranty Start"
+msgstr "保修结束时间"
+
+#. module: asset
+#: selection:asset.asset,maintenance_state_color:0
+#: selection:asset.state,state_color:0
+msgid "White"
+msgstr "白色"
+
+#. module: asset
+#: selection:asset.asset,maintenance_state_color:0
+#: selection:asset.state,state_color:0
+msgid "Yellow"
+msgstr "黄色"

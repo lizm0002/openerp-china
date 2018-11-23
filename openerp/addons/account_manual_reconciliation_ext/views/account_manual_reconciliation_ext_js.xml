@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vim:fdn=3:
+-->
+<openerp>
+    <data>
+        <template id="assets_backend" name="account bank statement reconciliation assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/account_manual_reconciliation_ext/static/src/js/account_reconciliation_widgets_ext.js"></script>
+            </xpath>
+        </template>
+    </data>
+</openerp>

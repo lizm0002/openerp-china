@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_stock_change_stock_user,stock_change_stock_user,model_stock_change,stock.group_stock_user,1,1,1,0
+access_stock_change_account_user,stock_change_account_user,model_stock_change,account.group_account_user,1,1,0,0
+access_stock_move_account_user,stock_move_account_user,model_stock_move,account.group_account_user,1,1,1,0

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_osbzr_bulk_sales_order_line" model="ir.ui.view">
+            <field name="name">Bulk input line</field>
+            <field name="model">osbzr.bulk.sales.order.line</field>
+            <field name="arch" type="xml">
+               <form string="订单默认值">
+                <group>
+                    <field name='quantity'/>
+                    <field name='product_ids'/>
+                </group>
+                <footer>
+                    <button name="add_lines" string="确认选择" type="object" class="oe_highlight"
+                        />
+                    or
+                    <button string="Cancel" class="oe_link" special="cancel" />
+                </footer>
+              </form>
+            </field>
+        </record>
+        <record id="action_osbzr_line_bulk" model="ir.actions.act_window">
+            <field name="name">增加订单行</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">osbzr.bulk.sales.order.line</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_osbzr_bulk_sales_order_line"/>
+            <field name="target">new</field>
+        </record>
+        <record model="ir.ui.view" id="knd_sale_order_form">
+            <field name="name">osbzr.bulk.line.sale.order.form</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form" />
+            <field name="priority">51</field>
+            <field name="arch" type="xml">                
+                <field name="order_line" position="after">
+                    <button name="%(action_osbzr_line_bulk)d" string="批量新增行" states="draft" type="action" class="oe_highlight"/>
+                </field>
+            </field>
+        </record>
+    </data>
+</openerp>

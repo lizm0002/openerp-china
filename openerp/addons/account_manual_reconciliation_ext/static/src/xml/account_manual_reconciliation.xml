@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+
+    <!--手动核销界面中业务伙伴文本显示换为下拉选择-->
+    <t t-extend="AccountReconciliation">
+        <t t-jquery="div.oe_account_reconciliation" t-operation="replace">
+            <t t-if="widget.current_partner !== null">
+                <div>
+                    <div style="display:inline">
+                        <button class="oe_account_recon_previous oe_button" href="javascript:void(0)">&lt;</button>
+                        <select id="partners" name="partners" >
+                            <t t-foreach='widget.partners' t-as='partner'>
+                                <option t-att="{'selected': partner[0] === widget.partners[widget.current_partner][0] ? 'selected' : null}"
+                                        t-att-value="partner[0]">
+                                    <t t-esc="(partner_index+1) + partner[1]"/>
+                                </option>
+                            </t>
+                        </select>
+                        <t t-esc="' (' + (widget.current_partner + 1) + '/' + widget.partners.length + ')'"/>
+                        <button class="oe_account_recon_next oe_button" href="javascript:void(0)">&gt;</button>
+                    </div>
+
+                    <div style="display:inline;margin-left:200px;">
+                        Latest Manual Reconciliation Processed:
+                        <span style="color:#0000FF"><t t-esc="widget.last_reconciliation_date" /></span>
+                    </div>
+                </div>
+                <div>
+                    <button class="oe_account_recon_reconcile oe_button oe_highlight" href="javascript:void(0)"
+                        disabled="">Reconcile</button>
+                </div>
+            </t>
+        </t>
+    </t>
+ </templates>
